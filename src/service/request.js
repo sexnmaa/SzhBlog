@@ -2,9 +2,9 @@ import axios from 'axios'
 import { message } from 'antd';
 
 const instance = axios.create({
-  // baseURL: 'http://123.57.255.87:8000',
-  baseURL: 'http://localhost:3000',
-  timeout: 3000
+  baseURL: 'http://123.57.255.87:8000',
+  // baseURL: 'http://localhost:8000',
+  timeout: 8000
 })
 
 instance.interceptors.request.use(config => {

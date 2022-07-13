@@ -26,7 +26,7 @@ export default memo(function About (props) {
             </div>
             <div className="txt">
               <div className="name">你的一言不合</div>
-              <div className=" information">学渣一个，偶尔玩点游戏，现在大部分时间花在搞前端上。没什么远大的理想，只希望可以做自己喜欢做的事情。</div>
+              <div className=" information">学渣一个，偶尔玩点游戏，现在大部分时间花在搞前端上。只希望可以做自己喜欢做的事情。</div>
             </div>
           </div>
         </div>
